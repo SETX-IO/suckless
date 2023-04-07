@@ -1144,8 +1144,8 @@ xinit(int cols, int rows)
 	XGCValues gcvalues;
 	Window parent;
 	pid_t thispid = getpid();
-	XColor xmousefg, xmousebg;
-	Pixmap blankpm;
+  XColor xmousefg, xmousebg;
+  Pixmap blankpm;
 
 	if (!(xw.dpy = XOpenDisplay(NULL)))
 		die("can't open display\n");
