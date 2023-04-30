@@ -7,7 +7,6 @@
 
 `cp dwm.desktop /usr/share/xsessions/dwm.desktop`
 
-
 #### 添加功能
 1. 自启动脚本
 2. Grid布局

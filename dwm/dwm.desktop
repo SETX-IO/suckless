@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=DWM
+Name=Dwm
 Comment=Log in using the Dynamic Window Manager
 Exec=/usr/local/bin/dwm
 Icon=/usr/local/bin/dwm.png
