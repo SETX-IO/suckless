@@ -2,3 +2,4 @@ st/st
 *.o
 *.orig
 *.rej
+.vs
