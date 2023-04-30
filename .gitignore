@@ -1,4 +1,6 @@
 st/st
+dwm/dwm
+
 *.o
 *.orig
 *.rej

@@ -1,10 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
-/*
- * appearance
- *
- * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
- */
+// 终端字体 / 大小
 static char *font = "JetBrainsMonoNL Nerd Font Mono:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
@@ -93,7 +89,7 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* Terminal colors (16 first used in escape sequence) */
+// 终端配色
 static const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#000000", /* black   */

@@ -2051,9 +2051,7 @@ usage(void)
 	    " [stty_args ...]\n", argv0, argv0);
 }
 
-int
-main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
 	xw.l = xw.t = 0;
 	xw.isfixed = False;
 	xsetcursor(cursorshape);
