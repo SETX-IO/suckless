@@ -337,7 +337,7 @@ void togglescratch(const Arg* arg) {
 
 	for (c = selmon->clients; c && !(found = c->tags & scratchtag); c = c->next);
 
-	if (fonts) {
+	if (found) {
 		unsigned int newtagset = selmon->tagset[selmon->seltags] ^ scratchtag;
 
 		if (newtagset) {
